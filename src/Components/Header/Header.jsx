@@ -31,9 +31,9 @@ const Header = () => {
       link: "/profile",
     },
     {
-      name: "Settings",
+      name: "Logout",
       icon: <IoSettings />,
-      link: "/settings",
+      link: "/",
     },
   ];
   const [active, setActive] = useState("Home");

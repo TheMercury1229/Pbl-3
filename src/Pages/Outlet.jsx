@@ -7,8 +7,8 @@ import Attendance from "./Attendance";
 import Sidebar from "../Components/Sidebar/Sidebar";
 import Settings from "./Settings";
 import Profile from "./Profile";
-import Login from "./Login";
-import LoginSignup from "./LoginSignup";
+// import Login from "./Login";
+// import LoginSignup from "./LoginSignup";
 const Outlet = () => {
   return (
     <div>
@@ -21,9 +21,9 @@ const Outlet = () => {
               <Route path="/" element={<Home />} index />
               <Route path="/marks" element={<Marks />} />
               <Route path="/attendance" element={<Attendance />} />
-              <Route path="/settings" element={<Settings />} />
+              {/* <Route path="/settings" element={<Settings />} /> */}
               <Route path="/profile" element={<Profile />} />
-              <Route path="/login" element={<LoginSignup />} />
+              {/* <Route path="/login" element={<LoginSignup />} /> */}
             </Routes>
           </main>
         </div>
